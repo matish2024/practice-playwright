@@ -8,9 +8,9 @@ This is practice repository to learn basics of Playwright.
 
 I am using Notion to create tickets to breakdown the tasks. Here are a few tasks:
 
-[ ]  LEARN-001: Create test to navigate all pages and make sure they are working as expected.
+[ x ]  LEARN-001: Create test to navigate all pages and make sure they are working as expected.
 
-[ ]  LEARN-002: Create test for the text boxes with all possible cases.
+[ x ]  LEARN-002: Create test for the text boxes with all possible cases.
 
 [ ]  LEARN-003: Create test for the check boxes with all possible cases.
 
