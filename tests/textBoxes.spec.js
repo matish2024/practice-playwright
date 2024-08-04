@@ -4,7 +4,7 @@ import {test, expect} from '@playwright/test';
 
 test.describe('Test for Text Boxes', () => {
 
-    test.beforeEach(async({ page }) =>{
+    test.beforeEach(async({ page }) =>{ // hook executes before every test to go the page https:demoqa.com
 
         await page.goto('/', {waitUntil: 'domcontentloaded'})   // Go to the DEMOQA site
 
