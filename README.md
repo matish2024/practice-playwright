@@ -17,3 +17,5 @@ I am using Notion to create tickets to breakdown the tasks. Here are a few tasks
 [ ]  LEARN-004: Create test for radio buttons with all possible cases.
 
 [ ]  LEARN-005: Create test for buttons with all possible cases.
+
+[ ]  LEARN-006: Create test for links with all possible cases.
