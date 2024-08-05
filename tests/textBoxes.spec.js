@@ -6,7 +6,7 @@ test.describe('Test for Text Boxes', () => {
 
     test.beforeEach(async({ page }) =>{ // hook executes before every test to go the page https:demoqa.com
 
-        await page.goto('/', {waitUntil: 'domcontentloaded'})   // Go to the DEMOQA site
+        await page.goto('/', { waitUntil: 'domcontentloaded' })   // Go to the DEMOQA site
 
         await page.locator('h5').filter({ hasText: "Elements" }).click();  // Click on the Elements link
 
@@ -14,7 +14,7 @@ test.describe('Test for Text Boxes', () => {
 
     test('Enter all details', async({ page }) => {
         
-        await page.locator('span.text').filter({hasText: "Text Box"}).click();   // Click on the Text Box
+        await page.locator('span.text').filter({ hasText: "Text Box" }).click();   // Click on the Text Box
 
         // Define the locators for the text fields
         const fullName = page.locator('input[id="userName"]');
@@ -46,7 +46,7 @@ test.describe('Test for Text Boxes', () => {
 
     test('Invalid Email should not be submitted', async({ page }) => {
 
-        await page.locator('span.text').filter({hasText: "Text Box"}).click();   // Click on the Text Box
+        await page.locator('span.text').filter({ hasText: "Text Box" }).click();   // Click on the Text Box
 
         // Define the locators for the text fields
         const fullName = page.locator('input[id="userName"]');
