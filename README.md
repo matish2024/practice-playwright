@@ -14,7 +14,7 @@ I am using Notion to create tickets to breakdown the tasks. Here are a few tasks
 
 [ x ]  LEARN-003: Create test for the check boxes with all possible cases.
 
-[ ]  LEARN-004: Create test for radio buttons with all possible cases.
+[ x ]  LEARN-004: Create test for radio buttons with all possible cases.
 
 [ ]  LEARN-005: Create test for buttons with all possible cases.
 
