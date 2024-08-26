@@ -6,7 +6,7 @@ test.describe('Tests for Main Page', () => {
 
   test.beforeEach(async({ page }) => {  // hook executes before every test to go the page https:demoqa.com
 
-    await page.goto('/', { waitUntil: 'domcontentloaded' });
+    await page.goto('https://demoqa.com/', { waitUntil: 'domcontentloaded' });
 
   });
 

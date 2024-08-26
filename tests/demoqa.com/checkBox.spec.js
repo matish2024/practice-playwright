@@ -6,7 +6,7 @@ test.describe('Test for Checkbox', () => {
 
     test.beforeEach(async({ page }) =>{ // hook executes before every test to go the page https:demoqa.com
 
-        await page.goto('/', { waitUntil: 'domcontentloaded' })   // Go to the DEMOQA site
+        await page.goto('https://demoqa.com/', { waitUntil: 'domcontentloaded' })   // Go to the DEMOQA site
 
         await page.locator('h5').filter({ hasText: "Elements" }).click();  // Click on the Elements link
 
